@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: GPL-3.0-or-later WITH AdditionRef-Moatkeeper-AppStore-exception
+# Copyright (C) 2026 The Moatkeeper Authors
+blank_issues_enabled: true
+contact_links:
+  - name: Security issue
+    url: https://github.com/nolsen311/Moatkeeper/blob/main/SECURITY.md
+    about: Please don't report vulnerabilities in public issues; see SECURITY.md.

@@ -1,0 +1,58 @@
+# --- Signing material and secrets: never commit ---
+*.jks
+*.keystore
+keystore.properties
+*.p12
+*.pfx
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+
+# --- Raw captures from a real firewall: scrub before they become fixtures ---
+# (hostnames, IPs, MACs, serials, netgate_id, rule descriptions, user names)
+captures-raw/
+
+# --- Rust ---
+target/
+**/*.rs.bk
+
+# --- Android / Gradle ---
+.gradle/
+.kotlin/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# --- iOS / Xcode ---
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+Pods/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcframework
+.build/
+
+# --- UniFFI generated bindings ---
+**/generated/
+
+# --- Editors and OS ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
